@@ -1,0 +1,3 @@
+dubbo=com.hmilyylimh.cloud.adaptive.spi.Dubbo
+springcloud=com.hmilyylimh.cloud.adaptive.spi.SpringCloud
+adaptivegeek=com.hmilyylimh.cloud.adaptive.spi.AdaptiveGeek

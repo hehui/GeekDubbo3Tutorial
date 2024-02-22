@@ -1,0 +1,2 @@
+consumerTokenFilter=com.hmilyylimh.cloud.auth.config.ConsumerTokenFilter
+consumerAddSignFilter=com.hmilyylimh.cloud.auth.config.ConsumerAddSignFilter

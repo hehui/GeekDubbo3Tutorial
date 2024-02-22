@@ -1,0 +1,4 @@
+dubbo=com.hmilyylimh.cloud.inject.spi.Dubbo
+springcloud=com.hmilyylimh.cloud.inject.spi.SpringCloud
+com.hmilyylimh.cloud.inject.spi.GeekWrapper
+com.hmilyylimh.cloud.inject.spi.AppleWrapper

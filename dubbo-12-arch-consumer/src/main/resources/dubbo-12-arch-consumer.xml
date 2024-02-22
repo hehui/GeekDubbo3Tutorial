@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 提供的应用服务名称，最好是大家当前应用归属的系统名称 -->
+    <dubbo:application name="dubbo-12-arch-consumer"></dubbo:application>
+
+    <!-- 注册中心的地址，通过 address 填写的地址提供方就可以联系上 zk 服务 -->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
+
+    <!-- 引用远程服务 -->
+    <dubbo:reference id="demoFacade" check="false" retries="-1"
+            interface="com.hmilyylimh.cloud.facade.demo.DemoFacade">
+    </dubbo:reference>
+</beans>

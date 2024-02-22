@@ -1,0 +1,2 @@
+reqNoConsumerFilter=com.hmilyylimh.cloud.rpcctx.config.ReqNoConsumerFilter
+reqNoProviderFilter=com.hmilyylimh.cloud.rpcctx.config.ReqNoProviderFilter

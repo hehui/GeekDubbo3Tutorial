@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.5</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.hmilyylimh.cloud</groupId>
+    <artifactId>dubbo-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>dubbo-parent</name>
+    <description>GeekDubbo3Tutorial</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+        <module>dubbo-00-facade</module>
+        <module>dubbo-00-stream-facade</module>
+        <module>dubbo-02-async-provider</module>
+        <module>dubbo-03-rpcctx-transfer</module>
+        <module>dubbo-04-generic-consumer</module>
+        <module>dubbo-05-monster-consumer</module>
+        <module>dubbo-04-xml-boot-consumer</module>
+        <module>dubbo-04-xml-boot-provider</module>
+        <module>dubbo-04-api-boot-consumer</module>
+        <module>dubbo-04-api-boot-provider</module>
+        <module>dubbo-04-annotation-boot-consumer</module>
+        <module>dubbo-04-annotation-boot-provider</module>
+        <module>dubbo-05-async-provider</module>
+        <module>dubbo-05-async-getfuture-consumer</module>
+        <module>dubbo-05-async-setcallback-consumer</module>
+        <module>dubbo-05-async-getcompletablefuture-consumer</module>
+        <module>dubbo-05-stream-provider</module>
+        <module>dubbo-05-stream-consumer</module>
+        <module>dubbo-06-event-consumer</module>
+        <module>dubbo-07-validation-provider</module>
+        <module>dubbo-07-validation-consumer</module>
+        <module>dubbo-08-cache-consumer</module>
+        <module>dubbo-08-cache-provider</module>
+        <module>dubbo-09-limit-provider</module>
+        <module>dubbo-09-limit-consumer</module>
+        <module>dubbo-10-auth-provider</module>
+        <module>dubbo-10-auth-consumer</module>
+        <module>dubbo-11-loadcfg-provider</module>
+        <module>dubbo-11-loadcfg-consumer</module>
+        <module>dubbo-12-arch-provider</module>
+        <module>dubbo-12-arch-consumer</module>
+        <module>dubbo-14-dubbo-spi</module>
+        <module>dubbo-15-generic-bean-consumer</module>
+        <module>dubbo-15-generic-byte-consumer</module>
+        <module>dubbo-15-generic-json-consumer</module>
+        <module>dubbo-15-generic-provider</module>
+        <module>dubbo-15-generic-string-consumer</module>
+        <module>dubbo-15-dubbo-wrapper</module>
+        <module>dubbo-16-dubbo-compiler</module>
+        <module>dubbo-17-dubbo-adaptive</module>
+        <module>dubbo-18-dubbo-inject</module>
+        <module>dubbo-19-dubbo-deploy-provider</module>
+        <module>dubbo-20-subscribe-consumer</module>
+        <module>dubbo-20-subscribe-provider</module>
+        <module>dubbo-21-rpcinvoke-consumer</module>
+        <module>dubbo-21-rpcinvoke-provider</module>
+        <module>dubbo-22-codec-consumer</module>
+        <module>dubbo-22-codec-provider</module>
+        <module>dubbo-23-cluster-ext-consumer</module>
+        <module>dubbo-23-cluster-ext-provider</module>
+        <module>dubbo-24-filter-ext-consumer</module>
+        <module>dubbo-24-filter-ext-provider</module>
+        <module>dubbo-25-registry-ext-consumer</module>
+        <module>dubbo-25-registry-ext-provider</module>
+        <module>dubbo-26-threadpool-ext-consumer</module>
+        <module>dubbo-26-threadpool-ext-provider</module>
+        <module>dubbo-27-protocol-ext-consumer</module>
+        <module>dubbo-27-protocol-ext-provider</module>
+    </modules>
+
+</project>

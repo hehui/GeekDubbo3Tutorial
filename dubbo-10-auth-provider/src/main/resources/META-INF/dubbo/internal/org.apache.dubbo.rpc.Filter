@@ -1,0 +1,2 @@
+providerTokenFilter=com.hmilyylimh.cloud.auth.config.ProviderTokenFilter
+providerVerifySignFilter=com.hmilyylimh.cloud.auth.config.ProviderVerifySignFilter
